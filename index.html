@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ondas Infravermelhas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOPO -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <img src="luz.png" alt="Logo" class="logo-img">
+      <span class="brand">IRTECH</span>
+    </div>
+
+    <div class="topbar-right">
+      <div class="search-wrap">
+        <input id="siteSearch" type="search" placeholder="Buscar seção (ex: introdução)">
+        <button id="btnSearch">🔍</button>
+      </div>
+      <nav class="top-links">
+        <a href="#" data-target="home" class="top-link">Home</a>
+        <a href="#" class="top-link">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- LATERAL -->
+  <aside class="sidebar">
+    <ul>
+      <li><button class="side-btn" data-target="intro">Introdução</button></li>
+      <li><button class="side-btn" data-target="descoberta">Descoberta</button></li>
+      <li><button class="side-btn" data-target="biografia">Biografia</button></li>
+      <li><button class="side-btn" data-target="caracteristicas">Características Físicas</button></li>
+      <li><button class = "side-btn" data-target= "principios"> Principios Fisicos</button></li>
+      <li><button class="side-btn" data-target="aplicacoes">Aplicações na Saúde</button></li>
+      <li><button class="side-btn" data-target="Experimento">Experimento em Casa</button></li>
+    </ul>
+  </aside>
+
+  <!-- CONTEÚDO -->
+  <main class="content">
+    <!-- INTRODUÇÃO -->
+    <section id="intro" class="section active">
+      <div class="cards">
+        <article class="card small-card"><h3>Introdução</h3></article>
+
+        <article class="card image-card">
+          <img src="introdução.avif" alt="Representação infravermelha">
+        </article>
+
+        <article class="card text-card">
+          <p>
+            As ondas infravermelhas fazem parte do espectro eletromagnético, situando-se entre a luz visível e as micro-ondas.
+            Elas são invisíveis ao olho humano, mas podem ser sentidas como calor. O infravermelho é amplamente utilizado em áreas
+            como saúde, astronomia, comunicações e tecnologia. Este site apresenta informações completas sobre sua descoberta,
+            propriedades e aplicações médicas.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- DESCOBERTA -->
+    <section id="descoberta" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Descoberta</h3></article>
+
+        <article class="card image-card">
+          <img src="descobrimento.webp" alt="Experimento de Herschel">
+        </article>
+
+        <article class="card text-card">
+          <p>
+            A radiação infravermelha foi descoberta em 1800 pelo astrônomo William Herschel, enquanto ele estudava o espectro da luz solar.
+            Ele passou a luz do Sol por um prisma para separar as cores (como em um arco-íris) e mediu a temperatura de cada faixa de cor.
+            Herschel percebeu que logo além da luz vermelha, onde o olho humano já não enxerga mais, a temperatura continuava aumentando.
+            Assim, ele concluiu que existia um tipo de radiação invisível, o que hoje chamamos de infravermelho (“infra” = abaixo do vermelho).
+          </p>
+        </article>
+      </div>
+    </section>
+  
+
+    <!-- BIOGRAFIA -->
+    <section id="biografia" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Biografia: William Herschel</h3></article>
+
+        <article class="card image-card">
+          <img src="William.jpg" alt="William Herschel">
+        </article>
+
+        <article class="card text-card">
+          <p>
+            Nome completo: Friedrich Wilhelm Herschel<br>
+            Origem: Nascido em Hannover (atual Alemanha), naturalizado britânico.<br>
+            Profissão: Músico e astrônomo.<br>
+            Suas principais contribuições foram que ele descobriu o planeta Urano em 1781, além de estudar as nebulosas e estrelas duplas,
+            também desenvolveu telescópios potentes feitos por ele mesmo. E por último descobriu a radiação infravermelha em 1800.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS -->
+    <section id="caracteristicas" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Características Físicas</h3></article>
+
+        <article class="card image-card">
+          <img src="luz.jpg" alt="Espectro eletromagnético">
+        </article>
+
+        <article class="card text-card">
+          <p>
+            Seu tipo de onda é eletromagnética, tendo uma frequência de aproximadamente de <strong>300 GHz (3×10¹¹ Hz)</strong> até <strong>400 THz (4×10¹⁴ Hz)</strong>.<br>
+            Seu comprimento de onda é de <strong>1 milímetro (mm)</strong> até <strong>700 nanômetros (nm)</strong>, além de ter uma energia (calculada por E = h·f)
+            menor que a da luz visível, mas maior que a das micro-ondas.<br>
+            Sua velocidade no vácuo é igual à da luz: ≈ <strong>3×10⁸ m/s</strong>. Não é visível ao olho humano, mas é sentida como calor.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- PRINCIPIOS -->
+     <section id="principios" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Principios Físicos</h3></article>
+  <article class="card image-card">
+          <img src="infravermelha.jpg" alt="principios Fisicos">
+        </article>
+         <article class="card text-card">
+          <p>
+          <br>Seus principios são os mesmos das outras radiações eletromagnéticas:
+<br>Emissão: todo corpo quente emite radiação infravermelha proporcional à sua temperatura.
+<br>Absorção: diferentes materiais absorvem essa radiação de formas distintas, o que permite identificar substâncias.
+<br>Reflexão e transmissão: o infravermelho pode ser refletido, transmitido ou absorvido, dependendo da superfície.
+<br>Energia térmica: quanto maior a temperatura, maior a intensidade da radiação emitida.</br>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- APLICAÇÕES -->
+    <section id="aplicacoes" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Aplicações na Saúde</h3></article>
+
+        <article class="card image-card">
+          <img src="saude.png" alt="Aplicações médicas infravermelho">
+        </article>
+
+        <article class="card text-card">
+          <p>
+            Em terapias por infravermelho, por exemplo, na fisioterapia. Também pode ser utilizado o calor gerado pela radiação infravermelha
+            para aliviar dores musculares e articulares além de melhorar a circulação sanguínea e relaxar músculos.<br><br>
+            É possível ter um diagnóstico por imagem (termografia médica), a partir de câmeras infravermelhas que detectam a temperatura da pele,
+            identificando áreas de inflamação, má circulação ou problemas vasculares.<br><br>
+            Também pode ser aplicada em termômetros infravermelhos, ou seja sem contato, que são amplamente usados em hospitais e clínicas,
+            especialmente desde a pandemia de COVID-19.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- Experimento em casa-->
+    <section id="Experimento" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Experimento Garrafa</h3></article>
+
+        <article class="card image-card">
+          <img  src="garrafa termica.jpg" alt="Experimento em casa ">
+        </article>
+
+        <article class="card text-card">
+          <p>
+           <br> "Garrafa termica" <br/>
+           <br> Materiais:
+            <br> Garrafa pet 
+           <br> Papel aluminio
+           <br> Papel preto
+           <br> Gelo 
+           <br> luz do sol</br>
+            <br>Passos:
+            <br>Envolver as garrafas (uma com alumino outra com papel preto)
+            <br> mesma quantidade de agua 
+           <br> Deixe no sol por um tempo, aproximadamente uns 15 min </br>
+           <br> O que você ira observar:</br>
+            Podera ver que o gelo da garrafa de aluminio derreteu pouco em relação a garrafa preta, isso ocorre por conta que 
+            o papel preto absorver mais os raios solares por isso que o gelo derreteu mais rapido.
+            </p>
+        </article>
+      </div>
+    </section>
+    <section id="Experimento" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Experimento Controle</h3></article>
+
+     <article class="card image-card">
+          <img  src="controle.jpg" alt="Experimento em casa ">
+        </article>
+
+        <article class="card text-card">
+          <p>
+           <br> "Controle Remoto" <br/>
+           <br> Materiais:
+            <br>Controle de tv ou ar condicionado (algum controle que tenha aquela luz vermelha)
+           <br> Camera fotografica ou do celular</br>
+            <br>Passos:
+            <br>Pegue o controle e aperte algum botam 
+            <br> Quando a luz vermelha acender aproxime a camera para pode ver</br>
+           <br> O que você ira observar:</br>
+            Podera ver que surgira uma leve luz rosinha ou branquinha que nossos olhos não ve, porém a camera consegue captar
+            </p>
+        </article>
+      </div>
+    </section>
+     <section id="Experimento" class="section">
+      <div class="cards">
+        <article class="card small-card"><h3>Experimento Mão</h3></article>
+
+    <article class="card image-card">
+          <img  src="mão fantasma.jpg" alt="Experimento em casa ">
+        </article>
+
+        <article class="card text-card">
+          <p>
+           <br> "Mão fantasma" <br/>
+           <br> Materiais:
+            <br>Suas mão
+           <br>Papel aluminio</br>
+            <br>Passos:
+            <br>Coloque sua mão sobre o papel aluminio
+            <br>Deixe por uns 10 a 15 segundos </br>
+           <br> O que você ira observar:</br>
+            Podera ver que a parte onde sua mão estava ficou mais quente, isso ocorre porque nosso corpo tambem gera calor
+            </p>
+        </article>
+      </div>
+    </section>
+  <script>
+    
+    // script simples para navegação por clique e busca
+    const sideButtons = document.querySelectorAll('.side-btn');
+    const sections = document.querySelectorAll('.section');
+    const btnSearch = document.getElementById('btnSearch');
+    const inputSearch = document.getElementById('siteSearch');
+
+    function showSection(id) {
+      sections.forEach(s => {
+        if (s.id === id) {
+          s.classList.add('active');
+          s.scrollIntoView({behavior: 'smooth', block: 'start'});
+        } else {
+          s.classList.remove('active');
+        }
+      });
+    }
+
+    sideButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const target = e.currentTarget.dataset.target;
+        showSection(target);
+      });
+    });
+
+    // top Home link: show intro
+    document.querySelectorAll('.top-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (link.dataset.target === 'home' || link.textContent.trim().toLowerCase() === 'home') {
+          showSection('intro');
+        } else {
+          // contato placeholder - open mailto
+          window.location.href = 'mailto:seuemail@exemplo.com';
+        }
+      });
+    });
+
+    btnSearch.addEventListener('click', () => {
+      const q = inputSearch.value.trim().toLowerCase();
+      if (!q) return;
+      // procurar correspondência simples entre IDs e textos
+      if (q.includes('intro') || q.includes('introdu') || q.includes('inicial')) showSection('intro');
+      else if (q.includes('desc') || q.includes('descob')) showSection('descoberta');
+      else if (q.includes('bio') || q.includes('herschel')) showSection('biografia');
+      else if (q.includes('carac') || q.includes('frequencia') || q.includes('comprimento')) showSection('caracteristicas');
+      else if (q.includes('aplica') || q.includes('saude') || q.includes('terapia')) showSection('aplicacoes');
+      else if (q.includes ('exp')||q.includes('experimento')||q.includes("em casa")) showSection("Experimento");
+      else if(q.includes ('princi')|| q.includes('principios') ||q.includes("fisicos"))showSection("principios fisicos");
+      else alert('Nenhuma seção encontrada. Tente palavras como: introdução, descoberta, biografia, características, aplicações, Experimento, Principios fisicos');
+    });
+
+    // inicial - mostrar intro
+    showSection('intro');
+  </script>
+</body>
+</html>
